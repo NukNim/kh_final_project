@@ -37,6 +37,173 @@
 
 
 ## 5️⃣ 주요기능
+
+<div align="center">
+<img width="230" alt="image" src="https://github.com/NukNim/kh_final_project/assets/114970601/3838da3c-9341-4328-be92-11a688e5a03b">
+</div>
+
+<h3>✅ OPEN API 연동 샘플데이터 추가 </h3>
+ 
+ <div align="center">
+<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">워크넷 API로 채용공고 샘플데이터 추가<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
+ </div>
+ 
+ <br>
+ 
+ <div align="center">
+<img width="80%" src="https://github.com/NukNim/kh_final_project/assets/114970601/37353267-2b13-420e-998a-137f0e51f072">
+ </div>
+  
+  - 워크넷 채용공고 API사용.
+  - OpenApiUtils 생성 후 제너릭 사용해 dto에 저장.
+ <br>
+ 
+ <div align="center">
+ <img width="65%" src="https://github.com/NukNim/kh_final_project/assets/114970601/01707431-33b1-4734-a429-1ac7b34e1bcd">
+   </div>
+ 
+  - API에서 지원하지 않는 출력값의 경우, NodeList 객체를 생성해 추출한 텍스트 콘텐츠를 리턴하도록 하였고 요소를 찾지 못한 경우에는 NULL을 리턴하도록 함.
+ <br>
+ 
+  <div align="center">
+  <img width="70%" src="https://github.com/NukNim/kh_final_project/assets/114970601/b81afc2c-1fe8-4b22-a062-0ca258c6fb27">
+ </div>
+ 
+ - 데이터가 XML형태로 들어와 XML파싱메소드를 이용해 데이터를 파싱.
+ <br>
+
+<br>
+ <br>
+
+<h3>✅ 이력서 작성 및 입사지원 </h3>
+<div markdown="1"> 
+ <br>
+ <br>
+ <div align="center">
+<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png"> 이력서 작성 <img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
+</div>
+ 
+ <br>
+ 
+ <div align="center">
+<img src="https://github.com/NukNim/kh_final_project/assets/114970601/42cc174c-4da3-4ba9-a36b-72704dd94541">
+ 이력서 - 학력사항 작성 화면
+ </div>
+ <br>
+ <br> 
+ 
+ 
+  <div align="center">
+<img width="80%" src="https://github.com/NukNim/kh_final_project/assets/114970601/6c24b6de-dd8a-4837-9272-9c787ef4bd50">
+ </div>
+ <br>
+ 
+  ---
+ 
+  <div align="center">
+<img src="https://github.com/NukNim/kh_final_project/assets/114970601/c6b01451-61df-4e7e-9b0e-5ef7d3f8cddc">
+ 저장된 정보 불러오기, 수정, 삭제 화면
+ </div>
+ <br>
+ <br> 
+ 
+ 
+  <div align="center">
+<img width="60%" src="https://github.com/NukNim/kh_final_project/assets/114970601/908edd1e-dfa8-4733-a41f-23e4b065c4fc">
+ </div>
+ <br>
+ 
+  ---
+ <br>
+  <div align="center">
+<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png"> 입사지원 <img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
+</div>
+ 
+ <br>
+ <br>
+ 
+  <div align="center">
+<img src="https://github.com/NukNim/kh_final_project/assets/114970601/6fa8a1a2-b6b6-4306-bb77-bad83afe1011">
+ <img width="90%" src="https://github.com/NukNim/kh_final_project/assets/114970601/d243b23f-81c9-47b9-9442-4d49dbf13c1c"><br>
+ 입사지원 & 지원취소 화면
+ </div>
+
+ 
+ <br>
+ <br> 
+ 
+ 
+1. 채용공고에서 '지원하기' 버튼 클릭 후 모달창에서 해당 공고에 지원할 이력서 선택해 입사지원하기
+2. 한 채용공고에 입사지원은 한 번만 가능하도록 구현  
+ 2-1 다른 이력서여도 입사지원 불가능 -'이미 입사지원한 공고입니다' alert창 출력
+3. <입사지원현황>에서 입사지원내역 확인  
+ 4. 기업이 이력서 확인 전이면 입사 취소 가능  
+ 4-1 기업이 이미 열람한 이력서의 경우, '지원취소' 버튼 대신 '열람완료' 문구 출력
+
+ 
+ 
+ ---
+  </div>
+ 
+ <br>
+ <br>
+ <br>
+ 
+
+<h3>✅ 채용공고 & 기업 스크랩 </h3>
+
+ <br>
+ <br>
+ <div align="center">
+<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png"> 채용공고 스크랩 <img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
+</div>
+ 
+ <br>
+ 
+ <div align="center">
+<img src="https://github.com/NukNim/kh_final_project/assets/114970601/4497c351-cf09-4fe7-ae19-3a634dca47ea">
+  채용공고 스크랩 화면
+ </div>
+ <br>
+ <br>
+ <br>
+  <br>
+<div align="center">
+ <img src="https://github.com/NukNim/kh_final_project/assets/114970601/2028a2de-eb0d-485c-9d19-c07a83097bee">
+ </div>
+ <br>
+ 
+  ---
+ <br>
+  <div align="center">
+<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png"> 관심기업 스크랩 <img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
+</div>
+ <br>
+ <br>
+ 
+   <div align="center">
+  <img width="80%" src="https://github.com/NukNim/kh_final_project/assets/114970601/2197ebd7-3f98-4f3b-a7fe-eff0625769dd">
+  <img width="80%" src="https://github.com/NukNim/kh_final_project/assets/114970601/ccff0dca-56f2-44f0-84a4-18dd488622bf">
+  </div>
+ 
+   <br>
+ 
+1. 페이지 실행 시, ajax 통해 해당 회사가 관심기업으로 스크랩 되어있는지 확인해 하트 모양 아이콘 상태 변경  
+2. 회사 정보 게시판 & 회사 소개페이지에서 하트 모양 아이콘 클릭해 관심기업으로 스크랩 
+3. 한 번 더 클립하여 관심기업 스크랩 취소
+4. <관심기업정보>에서 스크랩 정보 확인
+5. 회사소개 '이동' 버튼 클릭하여 회사소개 페이지로 이동
+6. 체크박스로 체크 후 '관심기업 삭제' 버튼 클릭해 DB에서 삭제
+ <br>
+<br>
+ 
+  ---
+ 
+
+
+
+
+
 <div align="center">
 <img width="230" alt="image" src="https://github.com/NukNim/kh_final_project/assets/114970601/10918d26-170c-42b3-8037-89b7ca2997c3">
 </div>
@@ -119,169 +286,6 @@
  </div>
  </details>
  
-<div align="center">
-<img width="230" alt="image" src="https://github.com/NukNim/kh_final_project/assets/114970601/3838da3c-9341-4328-be92-11a688e5a03b">
-</div>
-
-<details>
-<summary><h3>✅ OPEN API 연동 샘플데이터 추가 </h3></summary>
-<div markdown="1"> 
- 
- <div align="center">
-<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">워크넷 API로 채용공고 샘플데이터 추가<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
- </div>
- 
- <br>
- 
- <div align="center">
-<img width="80%" src="https://github.com/NukNim/kh_final_project/assets/114970601/37353267-2b13-420e-998a-137f0e51f072">
- </div>
-  
-  - 워크넷 채용공고 API사용.
-  - OpenApiUtils 생성 후 제너릭 사용해 dto에 저장.
- <br>
- 
- <div align="center">
- <img width="65%" src="https://github.com/NukNim/kh_final_project/assets/114970601/01707431-33b1-4734-a429-1ac7b34e1bcd">
-   </div>
- 
-  - API에서 지원하지 않는 출력값의 경우, NodeList 객체를 생성해 추출한 텍스트 콘텐츠를 리턴하도록 하였고 요소를 찾지 못한 경우에는 NULL을 리턴하도록 함.
- <br>
- 
-  <div align="center">
-  <img width="70%" src="https://github.com/NukNim/kh_final_project/assets/114970601/b81afc2c-1fe8-4b22-a062-0ca258c6fb27">
- </div>
- 
- - 데이터가 XML형태로 들어와 XML파싱메소드를 이용해 데이터를 파싱.
- <br>
-
- </details>
-
- <details>
-<summary><h3>✅ 이력서 작성 및 입사지원 </h3></summary>
-<div markdown="1"> 
- <br>
- <br>
- <div align="center">
-<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png"> 이력서 작성 <img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
-</div>
- 
- <br>
- 
- <div align="center">
-<img src="https://github.com/NukNim/kh_final_project/assets/114970601/42cc174c-4da3-4ba9-a36b-72704dd94541">
- 이력서 - 학력사항 작성 화면
- </div>
- <br>
- <br> 
- 
- 
-  <div align="center">
-<img width="80%" src="https://github.com/NukNim/kh_final_project/assets/114970601/6c24b6de-dd8a-4837-9272-9c787ef4bd50">
- </div>
- <br>
- 
-  ---
- 
-  <div align="center">
-<img src="https://github.com/NukNim/kh_final_project/assets/114970601/c6b01451-61df-4e7e-9b0e-5ef7d3f8cddc">
- 저장된 정보 불러오기, 수정, 삭제 화면
- </div>
- <br>
- <br> 
- 
- 
-  <div align="center">
-<img width="60%" src="https://github.com/NukNim/kh_final_project/assets/114970601/908edd1e-dfa8-4733-a41f-23e4b065c4fc">
- </div>
- <br>
- 
-  ---
- <br>
-  <div align="center">
-<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png"> 입사지원 <img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
-</div>
- 
- <br>
- <br>
- 
-  <div align="center">
-<img src="https://github.com/NukNim/kh_final_project/assets/114970601/6fa8a1a2-b6b6-4306-bb77-bad83afe1011">
- <img width="90%" src="https://github.com/NukNim/kh_final_project/assets/114970601/d243b23f-81c9-47b9-9442-4d49dbf13c1c"><br>
- 입사지원 & 지원취소 화면
- </div>
-
- 
- <br>
- <br> 
- 
- 
-1. 채용공고에서 '지원하기' 버튼 클릭 후 모달창에서 해당 공고에 지원할 이력서 선택해 입사지원하기
-2. 한 채용공고에 입사지원은 한 번만 가능하도록 구현  
- 2-1 다른 이력서여도 입사지원 불가능 -'이미 입사지원한 공고입니다' alert창 출력
-3. <입사지원현황>에서 입사지원내역 확인  
- 4. 기업이 이력서 확인 전이면 입사 취소 가능  
- 4-1 기업이 이미 열람한 이력서의 경우, '지원취소' 버튼 대신 '열람완료' 문구 출력
-
- 
- 
- ---
-  </div>
- </details>
- 
- 
- <details>
-<summary><h3>✅ 채용공고 & 기업 스크랩 </h3></summary>
-<div markdown="1"> 
- <br>
- <br>
- <div align="center">
-<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png"> 채용공고 스크랩 <img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
-</div>
- 
- <br>
- 
- <div align="center">
-<img src="https://github.com/NukNim/kh_final_project/assets/114970601/4497c351-cf09-4fe7-ae19-3a634dca47ea">
-  채용공고 스크랩 화면
- </div>
- <br>
- <br>
- <br>
-  <br>
-<div align="center">
- <img src="https://github.com/NukNim/kh_final_project/assets/114970601/2028a2de-eb0d-485c-9d19-c07a83097bee">
- </div>
- <br>
- 
-  ---
- <br>
-  <div align="center">
-<img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png"> 관심기업 스크랩 <img width="250" alt="image" src="https://media.discordapp.net/attachments/692994434526085184/1002954522253074472/a0c55ca0bfe82413.png">
-</div>
- <br>
- <br>
- 
-   <div align="center">
-  <img width="80%" src="https://github.com/NukNim/kh_final_project/assets/114970601/2197ebd7-3f98-4f3b-a7fe-eff0625769dd">
-  <img width="80%" src="https://github.com/NukNim/kh_final_project/assets/114970601/ccff0dca-56f2-44f0-84a4-18dd488622bf">
-  </div>
- 
-   <br>
- 
-1. 페이지 실행 시, ajax 통해 해당 회사가 관심기업으로 스크랩 되어있는지 확인해 하트 모양 아이콘 상태 변경  
-2. 회사 정보 게시판 & 회사 소개페이지에서 하트 모양 아이콘 클릭해 관심기업으로 스크랩 
-3. 한 번 더 클립하여 관심기업 스크랩 취소
-4. <관심기업정보>에서 스크랩 정보 확인
-5. 회사소개 '이동' 버튼 클릭하여 회사소개 페이지로 이동
-6. 체크박스로 체크 후 '관심기업 삭제' 버튼 클릭해 DB에서 삭제
- <br>
-<br>
- 
-  ---
- 
- </div>
- </details>
 
  
  <div align="center">
