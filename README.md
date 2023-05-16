@@ -41,7 +41,8 @@
 <div align="center">
 <img width="230" alt="image" src="https://github.com/NukNim/kh_final_project/assets/114970601/3838da3c-9341-4328-be92-11a688e5a03b">
 </div>
-
+<br>
+<br>
 <h3>✅ OPEN API 연동 샘플데이터 추가 </h3>
  
  <div align="center">
