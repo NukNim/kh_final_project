@@ -159,7 +159,7 @@
 
  <details>
 <summary><h3>✅ 이력서 작성 및 입사지원 </h3></summary>
-<div markdown="1"> 
+
  <br>
  <br>
  <div align="center">
@@ -226,7 +226,7 @@
  
  
  ---
-  </div>
+
  </details>
  
  
